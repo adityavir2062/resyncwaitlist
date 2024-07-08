@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(195, 243, 249);
+    text-align: center;
+
+}
+
+.quotes ul li{
+    text-decoration: none;
+    display: block;
+    list-style-type: none;
+}
+
+.services_display{
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 3%;  
+    width: 375px;
+    height: fit-content;
+    
+}
+
+
+.quotes ul li{
+    margin: -20px;
+
+}
+
+.quotes ul{
+    margin: -20px;
+}
+
+.methodology{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+ 
+}
+
+.col-3{
+    border: 2px black solid; 
+    border-radius: 5%;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.col-3 h3{
+    font-size: larger;
+
+}
+
+.Why{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.originals button{
+    border: 2px solid black;
+    border-radius: 4%;
+}
+
+.waitlist{
+    text-align: center;
+    font-family: cursive;
+    background-color: cyan;
+    margin-bottom: -20px;
+}
+.waitlist button{
+    background-color: darkorange;
+    border-radius: 4%;
+    border: 3px solid black;
+
+}
+
+.waitlist button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
